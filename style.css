@@ -1,0 +1,41 @@
+body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  background-image: url(https://cdn.pixabay.com/photo/2015/11/02/09/03/blue-1018120_1280.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  color: white;
+  font-size: 20px;
+}
+
+a {
+  color: darkblue;
+  background-color: aqua;
+  float: left;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.modeBtn {
+  float: right;
+  background-color: aqua;
+  height: 30px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+a:hover,
+.modeBtn:hover {
+  background-color: darkcyan;
+  color: white;
+}
